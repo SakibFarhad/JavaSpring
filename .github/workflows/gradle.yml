@@ -23,3 +23,9 @@ jobs:
       run: ./gradlew build
     - name: Build War File
       run: ./gradlew war
+    - name: Add War to Articafact
+        uses: actions/upload-artifact@v2
+        with:
+          name: War Artifact
+          path: ./build/libs/spring-boot-0.1.1-SNAPSHOT.war
+ 
