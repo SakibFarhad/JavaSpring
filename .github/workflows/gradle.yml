@@ -26,5 +26,5 @@ jobs:
     - name: Add War to Articafact
       uses: actions/upload-artifact@v2
       with:
-        name: War Artifact
+        name: SpringApp.war
         path: ./build/libs/spring-boot-0.1.1-SNAPSHOT.war
